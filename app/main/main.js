@@ -9,6 +9,6 @@ angular.module('myApp.main', ['ngRoute'])
   });
 }])
 
-.controller('MainCtrl', [function() {
-
+.controller('MainCtrl', ['$scope', function($scope) {
+	
 }]);
